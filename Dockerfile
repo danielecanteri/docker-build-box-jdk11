@@ -1,0 +1,5 @@
+FROM maven:3.6-jdk-11
+
+# install node 8.x
+RUN curl -sL https://deb.nodesource.com/setup_11.x | sudo -E bash -
+RUN apt-get install -y nodejs
