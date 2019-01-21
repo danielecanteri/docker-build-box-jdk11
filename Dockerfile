@@ -10,5 +10,4 @@ RUN apt-get -y install python-pip
 # install aws-cli
 RUN pip install awscli
 
-RUN apt-get install -y pydot
 RUN apt-get install -y graphviz
